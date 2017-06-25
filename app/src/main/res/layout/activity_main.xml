@@ -63,7 +63,7 @@
                 android:layout_marginTop="8dp"
                 android:fontFamily="casual"
                 android:text="Predefined profiles"
-                android:textColor="@android:color/holo_green_light"
+                android:textColor="@color/green"
                 android:textSize="26sp"
                 android:textStyle="bold"
                 android:typeface="serif"
@@ -125,7 +125,7 @@
                 android:fontFamily="casual"
                 android:text="Create profile"
                 android:textAllCaps="false"
-                android:textColor="@android:color/holo_orange_light"
+                android:textColor="?android:attr/colorPressedHighlight"
                 android:textSize="26sp"
                 android:textStyle="bold"
                 android:typeface="sans"
@@ -170,7 +170,8 @@
 
         <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:background="@drawable/aboutbackgroundtn">
 
             <ImageView
                 android:id="@+id/imageView29"
